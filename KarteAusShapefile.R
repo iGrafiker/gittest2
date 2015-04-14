@@ -5,12 +5,12 @@ library(maptools)
 setwd("/Users/Holger/Google Drive/RDaten/")
 
 # get spatial data for Germany on county level
-#con <- url("http://www.igrafik.de/rdaten/DEU_adm3.RData")
-#print(load(con))
-#close(con)
+con <- url("http://www.igrafik.de/rdaten/DEU_adm3.RData")
+print(load(con))
+close(con)
 
 # from your data file working directory 
-load ("Karten/DEU_adm3.RData")
+#load ("Karten/DEU_adm3.RData")
 
 ### DATA PREP ###
 # loading the unemployment data
